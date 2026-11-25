@@ -1,0 +1,9 @@
+{
+  "name": "WIN CROWN Workspace UI",
+  "short_name": "WIN CROWN",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f6f4",
+  "theme_color": "#0f3d36",
+  "description": "WIN CROWN 中缅双语手机优先纯静态工程工作台与算量界面"
+}

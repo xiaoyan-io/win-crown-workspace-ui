@@ -1,0 +1,69 @@
+{
+  "schema": "WIN_CROWN_PROMPT_PRESETS_V1",
+  "target_model": "Photorealistic Architecture SD1.5 / FLUX",
+  "engine": "static_copy_ready",
+  "baseline_ref": "REV B03 (FOR DISCUSSION ONLY — NOT FOR CONSTRUCTION)",
+  "default_negative_prompt": "blurry, lowres, cartoon, anime, 3d cgi toy, watermark, signature, text, logo, distorted perspective, crooked columns, collapsed roof, oversaturated, dark muddy shadows, extra messy cables, deformed vehicles",
+  "presets": [
+    {
+      "id": "wc_ind_exterior_day",
+      "badge": "外观日景",
+      "title_zh": "WIN_CROWN 钢结构厂房主立面 · 工业风日景（REV B03 39ft 屋盖）",
+      "title_mm": "WIN_CROWN သံမဏိစက်ရုံ အပြင်ဘက် နေ့ဘက်မြင်ကွင်း",
+      "prompt_zh": "缅甸内比都现代工业风钢结构食品厂房与冷库建筑外观，中间约 39 ft 跨度钢结构主车间衔接两侧既有建筑，独立不等长屋檐与明装雨水槽，浅灰与深钢蓝压型钢板立面，宽敞整洁的混凝土地坪，晴朗热带自然日光，建筑摄影广角实景",
+      "prompt_en": "RAW architectural photography of a modern industrial steel warehouse and cold storage facility in Naypyidaw Myanmar, 39ft span steel main production bay nestled neatly between two adjacent industrial buildings, asymmetric steel roof eaves with independent galvanized rain gutters, matte light-gray and deep steel-blue corrugated metal cladding, clean concrete apron yard, clear tropical daylight, wide-angle 24mm lens, crisp architectural lines, photorealistic, high detail, 8k uhd",
+      "recommended_size": "768x512",
+      "recommended_steps": 18
+    },
+    {
+      "id": "wc_ind_interior_truss",
+      "badge": "内部钢构",
+      "title_zh": "无中柱钢构车间内部 · 14 根 H 型主钢柱与钢屋架",
+      "title_mm": "အတွင်းပိုင်း သံမဏိတိုင် ၁၄ တိုင်နှင့် အမိုးဒိုင်း မြင်ကွင်း",
+      "prompt_zh": "现代工业风无中柱钢结构生产车间内部大透视，两侧整齐排列暴露式深灰色 H 型钢主柱（共 14 柱体系），大跨度钢桁架屋盖与冷弯 Z 型檩条，高位采光带与工业高棚 LED 照明，平整硬化环氧混凝土地坪，宽敞洁净动线，真实建筑室内摄影",
+      "prompt_en": "RAW interior architectural photography of a clear-span industrial steel factory hall, exposed dark anthracite H-beam steel columns along both side walls, clean 39ft wide steel roof trusses and galvanized Z-purlins overhead, clerestory daylight windows and industrial LED high-bay lights, smooth polished concrete floor, open unobstructed production aisle, clean modern industrial minimalist aesthetic, 24mm wide-angle lens, sharp focus, photorealistic",
+      "recommended_size": "768x512",
+      "recommended_steps": 18
+    },
+    {
+      "id": "wc_ind_c1_coldstorage",
+      "badge": "C1 冷库",
+      "title_zh": "C1 双层保温冷库与工业装卸月台",
+      "title_mm": "C1 အအေးခန်းနှင့် ကုန်တင်ကုန်ချ နေရာ",
+      "prompt_zh": "工业风洁净冷链仓储建筑（C1 冷库），白色金属聚氨酯保温夹芯板外墙、重型冷库平移保温门、黄色防撞钢管护栏、不锈钢排水沟与平整工业地坪，明亮冷白照明与清晰建筑结构细节，写实工程实景摄影",
+      "prompt_en": "RAW architectural photo of a modern industrial food-grade cold storage building interior and loading bay, crisp white insulated PU sandwich wall panels, heavy-duty sliding cold-room doors, yellow steel safety bollards, stainless steel floor drainage, high-bay LED lighting, clean industrial steel aesthetic, realistic reflections on concrete floor, sharp focus, photorealistic",
+      "recommended_size": "768x512",
+      "recommended_steps": 18
+    },
+    {
+      "id": "wc_ind_f1_foundation",
+      "badge": "F1 基础",
+      "title_zh": "F1 独立基础与短柱施工现场纪实概念",
+      "title_mm": "F1 အောက်ခြေခံနှင့် တိုင်တို ဆောက်လုပ်ရေး မြင်ကွင်း",
+      "prompt_zh": "工业厂房钢筋混凝土 F1 独立基础与短柱施工现场纪实摄影，整齐排列的 7×3 网格独立柱基与现浇短柱、标准地梁钢筋绑扎、清晰轴线与模板支护，热带晴朗阳光，真实土木工程纪实镜头",
+      "prompt_en": "Documentary civil engineering photography of an industrial warehouse foundation construction site in Myanmar, neat grid of reinforced concrete isolated footings and square concrete pedestals, clean tied rebar cages and ground beam formwork, compacted crushed stone subbase, bright tropical sunlight, realistic construction site details, sharp focus, DSLR 35mm lens",
+      "recommended_size": "768x512",
+      "recommended_steps": 18
+    },
+    {
+      "id": "wc_ind_golden_boss",
+      "badge": "老板汇报",
+      "title_zh": "傍晚黄金时刻 · 老板汇报级工业建筑主视觉",
+      "title_mm": "ညနေခင်း အလင်းရောင် Boss တင်ပြချက် မြင်ကွင်း",
+      "prompt_zh": "现代工业风钢结构工厂与冷库综合体傍晚黄金时刻主视角，深灰钢结构立面搭配暖色室内外工业射灯，温暖夕阳天空与柔和建筑投影，干净宽敞的厂区主通道，高端建筑摄影杂志级呈现，适合老板汇报封面",
+      "prompt_en": "RAW architectural hero photography of a modern industrial steel warehouse complex at golden hour sunset, sleek dark-gray and steel-blue metal facade, warm architectural wall-wash lighting glowing along the loading bays, clean concrete driveway, dramatic soft warm sky, executive presentation cover quality, ultra sharp, photorealistic",
+      "recommended_size": "768x512",
+      "recommended_steps": 20
+    },
+    {
+      "id": "wc_ind_aerial_site",
+      "badge": "鸟瞰总图",
+      "title_zh": "厂区高空鸟瞰工业总图（B 栋 · 中间车间 · A 栋 · C1）",
+      "title_mm": "စက်ရုံတစ်ခုလုံး အပေါ်စီး မြင်ကွင်း",
+      "prompt_zh": "无人机高空俯拍现代工业食品厂区综合体，中间长条形钢结构主车间屋面夹在两侧既有厂房与住宅建筑之间，后侧连接方形冷库体块，浅灰金属屋面与独立天沟清晰可见，规整厂区混凝土道路与货车回转场地，晴天航拍写实摄影",
+      "prompt_en": "High-angle drone aerial architectural photography of a modern industrial factory compound in Southeast Asia, long central steel-roofed production warehouse bay flanked cleanly by two parallel existing buildings with an adjacent rectangular cold-storage block at the rear, neat light-gray standing-seam metal roofs with visible rain gutters, clean concrete access roads and truck yard, bright daylight, photorealistic, crisp detail",
+      "recommended_size": "768x512",
+      "recommended_steps": 20
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# === Strict Static-Only Publish Guard (Cloudflare Pages) ===
+# Secrets & environment files
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*token*
+*credential*
+
+# Backend / local scripts & executables
+*.py
+*.pyc
+__pycache__/
+*.ps1
+*.bat
+*.cmd
+*.sh
+
+# Databases, spreadsheets, internal ledgers & backups
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.bak
+*.log
+*V3.12*
+*v3_12*
+*CURRENT_STATE*
+*RECEIPTS*
+*CASHBOOK*
+
+# Binary CAD/3D & local caches
+*.glb
+*.gltf
+*.dxf
+*.dwg
+*.zip
+node_modules/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
